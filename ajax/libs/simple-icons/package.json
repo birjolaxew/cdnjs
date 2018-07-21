@@ -19,16 +19,13 @@
     "name": "Dan Leech",
     "url": "https://github.com/danleech"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/danleech/simple-icons.git",
-    "fileMap": [
-      {
-        "basePath": "icons",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "npmName": "simple-icons",
+  "npmFileMap": [
+    {
+      "basePath": "icons",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }
